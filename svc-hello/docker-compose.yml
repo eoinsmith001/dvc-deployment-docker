@@ -1,0 +1,11 @@
+hello-1:
+  image: eoinsmith001/api-hello
+  container_name: hello-1
+  ports: 
+  - "3001:3000"
+
+hello-2:
+  image: eoinsmith001/api-hello
+  container_name: hello-2
+  ports: 
+  - "3002:3000"
